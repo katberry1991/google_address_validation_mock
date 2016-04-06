@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Google Address Validation</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="./dist/bundle.css" charset="utf-8">
+</head>
+
+<body>
+<div class="content">
+    Enter your address
+    <div class="row">
+        <input type="text" class="gm-input address-street" placeholder="Street address and number">
+    </div>
+    <div class="row">
+        <input type="text" class="gm-input address-post-number" placeholder="Post number">
+        <input type="text" class="gm-input address-town" placeholder="Town">
+    </div>
+    <div class="row">
+        <input type="text" class="gm-input address-post-country" placeholder="Country">
+    </div>
+    <div class="row">
+        <button class="submit-data">Validate</button>
+    </div>
+
+    <div class="result">
+
+    </div>
+</div>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=InsertKey"></script>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
+
