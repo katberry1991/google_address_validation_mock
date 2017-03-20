@@ -22,3 +22,5 @@ To get minified/ugglified assets, run `gulp production`
 ## About the Google API key
 
 You need to have `Google Maps JavaScript API` enabled, and then create credentials for Geocoding Service
+
+Keep in mind google added some new things in their API. Now we can figure out if address is correct without having to do all the checks of lengths, etc. We can check `types` attribute and see if it is `street address`. If it is something else, it is not correct address.
